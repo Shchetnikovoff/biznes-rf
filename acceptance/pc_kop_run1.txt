@@ -1,0 +1,8 @@
+ 2 OK   ждали ['social', 'kopirajter'], запущено ['biznes-rf:social-content-engine', 'kopirajter:social'], длинное тире в ответе: нет
+ 3 OK   ждали ['emails'], запущено ['kopirajter:emails'], длинное тире в ответе: нет
+ 4 OK   ждали ['copywriting'], запущено ['kopirajter:copywriting'], длинное тире в ответе: нет
+ 5 OK   ждали ['copywriting'], запущено ['kopirajter:copywriting'], длинное тире в ответе: нет
+ 6 OK   ждали ['copy-editing', 'humanizer-ru'], запущено ['kopirajter:copy-editing'], длинное тире в ответе: нет
+10 OK   ждали ['social', 'kopirajter'], запущено ['kopirajter:social'], длинное тире в ответе: нет
+11 OK   ждали без навыка, запущено [], длинное тире в ответе: нет
+итог: 7 из 7
