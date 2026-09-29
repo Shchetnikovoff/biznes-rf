@@ -8,3 +8,8 @@
 - в каждый навык добавлена российская вставка и общий файл shared/rossiya.md;
 - навык smb-router переписан заново;
 - убран список подключений .mcp.json, используются подключения самого пользователя.
+
+Плагин kopirajter (Копирайтер)
+Навыки copywriting, emails, social, copy-editing взяты из https://github.com/coreyhaines31/marketingskills (MIT, коммит 5b2c0007766c). Изменено: описания переписаны по-русски, добавлена вставка про правила России. Лицензия: kopirajter/LICENSE-marketingskills.
+Навык humanizer-ru взят из https://github.com/smixs/humanizer-ru (MIT, коммит ff990df404f7) без изменений, кроме удалённых картинки и служебных файлов. Лицензия: kopirajter/skills/humanizer-ru/LICENSE.
+Навыки kopirajter и brand-voice, файлы shared/rossiya-copy.md, evals/checklist.md, templates/brief.md написаны заново.
