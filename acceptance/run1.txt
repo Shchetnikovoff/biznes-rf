@@ -1,0 +1,11 @@
+ 1 OK   ждали smb-router, запущено ['biznes-rf:smb-router']
+ 2 FAIL ждали proposal-builder, запущено ['shchetnikov-commercial-proposals']
+ 3 OK   ждали speed-to-lead, запущено ['biznes-rf:speed-to-lead']
+ 4 OK   ждали invoice-chase, запущено ['biznes-rf:invoice-chase']
+ 5 FAIL ждали call-list, запущено []
+ 6 FAIL ждали cash-flow-snapshot, запущено []
+ 7 FAIL ждали social-content-engine, запущено ['shchetnikov-client-copy']
+ 8 OK   ждали review-reputation, запущено ['biznes-rf:review-reputation']
+ 9 OK   ждали job-post-builder, запущено ['biznes-rf:job-post-builder']
+10 OK   ждали contract-review, запущено ['biznes-rf:contract-review']
+итог: 6 из 10
