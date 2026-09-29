@@ -1,0 +1,8 @@
+ 1 FAIL ждали smb-router, запущено []
+ 3 FAIL ждали speed-to-lead, запущено ['biznes-rf:proposal-builder']
+ 5 OK   ждали call-list, запущено ['biznes-rf:call-list']
+ 6 FAIL ждали cash-flow-snapshot, запущено []
+ 7 OK   ждали social-content-engine, запущено ['biznes-rf:social-content-engine']
+ 8 OK   ждали review-reputation, запущено ['biznes-rf:review-reputation']
+ 9 OK   ждали job-post-builder, запущено ['biznes-rf:job-post-builder']
+итог: 4 из 7

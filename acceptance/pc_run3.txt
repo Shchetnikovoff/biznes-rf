@@ -1,0 +1,11 @@
+ 1 OK   ждали smb-router, запущено ['biznes-rf:smb-router']
+ 2 OK   ждали proposal-builder, запущено ['biznes-rf:proposal-builder']
+ 3 OK   ждали speed-to-lead, запущено ['biznes-rf:speed-to-lead']
+ 4 OK   ждали invoice-chase, запущено ['biznes-rf:invoice-chase']
+ 5 OK   ждали call-list, запущено ['biznes-rf:call-list']
+ 6 OK   ждали cash-flow-snapshot, запущено ['biznes-rf:cash-flow-snapshot']
+ 7 OK   ждали social-content-engine, запущено ['biznes-rf:social-content-engine']
+ 8 OK   ждали review-reputation, запущено ['biznes-rf:review-reputation']
+ 9 OK   ждали job-post-builder, запущено ['biznes-rf:job-post-builder']
+10 OK   ждали contract-review, запущено ['biznes-rf:contract-review']
+итог: 10 из 10

@@ -1,0 +1,11 @@
+ 1 FAIL ждали smb-router, запущено []
+ 2 FAIL ждали proposal-builder, запущено []
+ 3 FAIL ждали speed-to-lead, запущено []
+ 4 FAIL ждали invoice-chase, запущено []
+ 5 FAIL ждали call-list, запущено []
+ 6 FAIL ждали cash-flow-snapshot, запущено []
+ 7 FAIL ждали social-content-engine, запущено []
+ 8 FAIL ждали review-reputation, запущено []
+ 9 FAIL ждали job-post-builder, запущено []
+10 FAIL ждали contract-review, запущено []
+итог: 0 из 10
