@@ -13,3 +13,6 @@
 Навыки copywriting, emails, social, copy-editing взяты из https://github.com/coreyhaines31/marketingskills (MIT, коммит 5b2c0007766c). Изменено: описания переписаны по-русски, добавлена вставка про правила России. Лицензия: kopirajter/LICENSE-marketingskills.
 Навык humanizer-ru взят из https://github.com/smixs/humanizer-ru (MIT, коммит ff990df404f7) без изменений, кроме удалённых картинки и служебных файлов. Лицензия: kopirajter/skills/humanizer-ru/LICENSE.
 Навыки kopirajter и brand-voice, файлы shared/rossiya-copy.md, evals/checklist.md, templates/brief.md написаны заново.
+
+Плагин buhgalter-ip (Бухгалтер ИП)
+Написан заново. Идея набора (ИП, УСН, счета, акты) подсказана проектом head790/buhuchet (файла лицензии в нём нет, поэтому из него ничего не скопировано). Цифры и сроки 2026 года сверены с nalog.gov.ru и НК РФ 29.09.2026.
