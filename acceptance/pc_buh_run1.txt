@@ -1,0 +1,10 @@
+ 2 OK   ждали ['schet-akt'], запущено ['buhgalter-ip:schet-akt']
+ 3 OK   ждали ['schet-akt'], запущено ['buhgalter-ip:schet-akt']
+ 4 OK   ждали ['nalog-usn'], запущено ['buhgalter-ip:nalog-usn']
+ 5 OK   ждали ['sroki'], запущено ['buhgalter-ip:sroki']
+ 6 FAIL ждали ['dolgi'], запущено ['biznes-rf:invoice-chase']
+ 7 OK   ждали без навыка, запущено []
+ 8 OK   ждали без навыка, запущено []
+ 9 OK   ждали без навыка, запущено ['buhgalter-ip:schet-akt', 'buhgalter-ip:nalog-usn']
+10 OK   ждали без навыка, запущено []
+итог по запуску: 8 из 9 (содержание ответов читать в run/)

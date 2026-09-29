@@ -1,9 +1,8 @@
----
-name: invoice-chase
-version: 0.3.0
-description: Должники, если в папке нет buh/journal.csv (иначе навык dolgi): «кто мне должен», «напомни об оплате», «просроченные счета», «дебиторка», «претензия», «клиент не платит». Используй навык, а не отвечай сам.
-allowed-tools: Read, WebFetch
----
+кто мне должен Сам ничего не отправляй, не оплачивай и не меняй.
+
+ не отправляй, не оплачивай и не меняй.
+  [инструмент Skill: {"skill": "biznes-rf:invoice-chase"}]
+USER: Base directory for this skill: C:\Users\Daniil Shchetnikov\.claude\plugins\cache\biznes-rf\biznes-rf\0.1.1\skills\invoice-chase
 
 > **Бизнес РФ.** Этот навык работает для малого бизнеса в России. До начала прочитай `../../shared/rossiya.md` и следуй ему: отвечай по-русски, обращайся на «Вы», суммы в рублях, российские налоги, документы и сервисы. Там, где текст ниже называет американские сервисы, налоги или законы, бери российскую замену из `rossiya.md`. Если ниже упомянут навык, которого нет в папке `skills/` этого набора, не предлагай его.
 
@@ -124,3 +123,24 @@ Reminders are sent or queued and the possibly-paid flags are named. If the chase
 ## Using a tool that isn't listed
 
 The connectors named in this skill are the tested paths, not a wall. If the owner wants this flow to use a tool that isn't connected or listed, offer `build-connector` — it checks the connector directory first and connects through Zapier otherwise, never hand-building against a raw API. Once the connection exists, the tool joins this skill like any other optional connector, under the same approval gates.
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\INDEX.md"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\.claude\\plugins\\cache\\biznes-rf\\biznes-rf\\0.1.1\\shared\\rossiya.md"}]
+  [инструмент Glob: {"pattern": "**/*"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\buh\\journal.csv"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\buh\\clients.yaml"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\buh\\payments.yaml"}]
+ASSISTANT: Сейчас Вам должен один клиент: ООО Вектор. Данные я взял из Вашего журнала в папке `buh`.
+
+| Дата | Клиент | Сумма | Статус |
+|---|---|---|---|
+| 10.09.2026 | ООО Вектор, счёт № 010, «Фуршет 40 чел.» | не указана | не оплачен, прошло 19 дней |
+
+- **Сумма:** в журнале у счёта № 010 стоит 0, поэтому сколько Вам должны, я не знаю. Цифру нужно взять из самого счёта.
+- **Срок оплаты:** в журнале его нет, поэтому просрочен ли счёт, сказать не могу.
+- **История клиента:** девять прошлых счетов (№ 001–009) на сумму от 100 000 до 300 000 ₽ в журнале записаны как доходы. Похоже, ООО Вектор платил Вам всегда. Значит, тон напоминания должен быть мягким.
+- **Оплата после 10.09:** журнал показывает только доход 24.09 на 150 000 ₽ по счёту № 009. Оплаты по № 010 там нет. Это могла быть и предоплата, поэтому сверьте выписку из банка: возможно, деньги уже пришли, а в журнал их не внесли.
+- **Других должников** в папке нет. Файл платежей пуст, банка и почты я не проверял.
+
+Я ничего не отправлял, не менял и не оплачивал.
+
+**Следующий шаг:** пришлите сумму по счёту № 010 и срок оплаты. Тогда я подготовлю черновик мягкого напоминания на «Вы» и покажу его целиком, а отправите Вы сами.

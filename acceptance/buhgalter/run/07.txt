@@ -1,0 +1,20 @@
+сколько налога я заплатил в прошлом году Сам ничего не отправляй, не оплачивай и не меняй.
+
+ в прошлом году (2025). Только чтение, ничего не отправлять, не оплачивать, не менять.
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\INDEX.md"}]
+ASSISTANT: Сначала прочитаю правила и проверю, есть ли у меня данные об учёте (папка `buh`).
+  [инструмент Glob: {"pattern": "**/buh/**", "path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie"}]
+  [инструмент Glob: {"pattern": "**/pravila-buhgaltera.md", "path": "C:\\Users\\Daniil Shchetnikov\\.claude\\plugins\\cache\\biznes-rf\\buhgalter-ip"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\buh\\profile.yaml"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\buh\\journal.csv"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\Documents\\Obuchenie\\buh\\payments.yaml"}]
+  [инструмент Read: {"file_path": "C:\\Users\\Daniil Shchetnikov\\.claude\\plugins\\cache\\biznes-rf\\buhgalter-ip\\0.1.0\\shared\\pravila-buhgaltera.md"}]
+ASSISTANT: Ответить не могу: данных за 2025 год у меня нет, а выдумывать цифры я не буду.
+
+- **Журнал доходов** (`buh/journal.csv`) начинается с января 2026 года, за 2025 там нет ни одной строки.
+- **Список платежей** (`buh/payments.yaml`) пустой. Ни одной уплаты налога или взносов в нём не записано.
+- **Профиль ИП** (`buh/profile.yaml`) помечен как «выдуманные данные для проверки». Похоже, это тестовая папка, а не ваша настоящая.
+
+Как узнать, сколько вы заплатили на самом деле: в личном кабинете ИП на nalog.gov.ru есть раздел «Мои налоги» и «Единый налоговый счёт», там видны все уплаты за 2025 год. Можно и в банке, в выписке по платёжкам в налоговую.
+
+**Следующий шаг:** назовите мне доход по кварталам за 2025 год и сумму взносов, которые вы заплатили. Тогда я посчитаю налог УСН 6% и покажу расчёт по строкам. Или дайте файл с учётом за 2025, если он у вас есть. Считать буду только для справки, ничего не отправлю и не изменю.
