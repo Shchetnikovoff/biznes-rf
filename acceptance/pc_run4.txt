@@ -1,0 +1,11 @@
+ 1 OK   ждали smb-router, запущено ['small-business:smb-router']
+ 2 OK   ждали proposal-builder, запущено ['small-business:proposal-builder']
+ 3 FAIL ждали speed-to-lead, запущено ['small-business:smb-router']
+ 4 OK   ждали invoice-chase, запущено ['small-business:invoice-chase']
+ 5 OK   ждали call-list, запущено ['small-business:call-list']
+ 6 FAIL ждали cash-flow-snapshot, запущено []
+ 7 OK   ждали social-content-engine, запущено ['small-business:social-content-engine']
+ 8 OK   ждали review-reputation, запущено ['small-business:review-reputation']
+ 9 OK   ждали job-post-builder, запущено ['small-business:job-post-builder']
+10 OK   ждали contract-review, запущено ['small-business:contract-review']
+итог: 8 из 10
