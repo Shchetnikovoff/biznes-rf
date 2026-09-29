@@ -7,9 +7,9 @@
 
 ## Как поставить
 
-1. Приложение Claude → Customize → Plugins → «+» → Add from a repository.
-2. Вставьте адрес этого репозитория и нажмите Sync.
-3. Вкладка Code → «Бизнес РФ» → «+».
+1. Приложение Claude → Customize → Plugins → Add → Add marketplace → Add from a repository.
+2. Вставьте `https://github.com/Shchetnikovoff/biznes-rf` и нажмите Sync.
+3. В открывшемся каталоге, вкладка Code, у «Бизнес РФ» нажмите «+».
 4. На Windows сначала установите Git for Windows, без него каталог плагинов
    не открывается.
 
